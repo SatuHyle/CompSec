@@ -1,2 +1,8 @@
 A) echo Fuzztest 1337 | radamsa -n 10
 B)
+
+$ gzip -c /bin/bash > sample.gz
+$ while true
+ do
+   radamsa fuzz1 fuzz-%n -n 100 sample-*
+ done

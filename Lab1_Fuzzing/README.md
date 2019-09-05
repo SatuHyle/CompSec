@@ -84,6 +84,7 @@ This repository contains an example C program called [example.c](misc/example.c)
 **Command line used to compile the program**
 
 ```clang -fsanitize=address -O1 -fno-omit-frame-pointer -g example.c```
+```./a.out```
 
 **Screenshot of the result after running the program**
 

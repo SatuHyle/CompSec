@@ -92,6 +92,8 @@ This repository contains an example C program called [example.c](misc/example.c)
 
 **What is the error and what is causing it in this program?**
 
+Error: detected memory leaks. It is caused by %d. Bytes cannot be decimals.
+
 ---
 ### B) Fuzzing with AFL
 

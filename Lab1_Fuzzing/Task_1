@@ -1,4 +1,0 @@
-A) echo Fuzztest 1337 | radamsa -n 10
-B) radamsa -o fuzz-%n -n 100 sample.txt
-   -fuzz-77: -18446744073709551615 EF
-   -fuzz-6: 8 EF
